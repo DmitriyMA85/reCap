@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 944px;
+    height: 28px;
+    left: 168px;
+    top: 41px;
+}

@@ -1,0 +1,9 @@
+.photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 96px 168px 96px 168px;
+    width: 944px;
+    height: 705px;
+}

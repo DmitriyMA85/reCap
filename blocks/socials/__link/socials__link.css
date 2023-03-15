@@ -1,0 +1,6 @@
+.socials__link {
+    z-index: 3;
+}
+.socials__link:hover {
+    opacity: .5;
+}

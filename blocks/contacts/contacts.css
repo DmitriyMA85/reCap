@@ -1,0 +1,8 @@
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 88px 168px 87px 168px;
+    width: 944px;
+    height: 462px;
+}

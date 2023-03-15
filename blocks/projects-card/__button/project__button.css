@@ -1,0 +1,22 @@
+.project__button {
+    display:flex;
+    position: absolute;
+    padding: 10px 25px 10px 25px;
+    border: 0;
+    border-radius: 4px;
+    background: #EC1F46;
+    box-shadow: 0px 2px 0px #CE1C3E;
+    z-index: 3;
+    margin: 240px 154px 28px 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.project__button:hover {
+    opacity: 0.7;
+}

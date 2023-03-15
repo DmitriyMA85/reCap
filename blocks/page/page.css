@@ -1,0 +1,10 @@
+.page {
+    width: 1280px;
+    height: 3562px;
+    background: #1B2944;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}

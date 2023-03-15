@@ -1,0 +1,10 @@
+.features {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    top: 637px;
+    width: 1280px;
+    height: 757px;
+    background: #141F35;
+}

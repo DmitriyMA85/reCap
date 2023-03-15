@@ -1,0 +1,6 @@
+.phone {
+    display: flex;
+    flex-direction: column;
+    width: 124px;
+    height: 76px;
+}

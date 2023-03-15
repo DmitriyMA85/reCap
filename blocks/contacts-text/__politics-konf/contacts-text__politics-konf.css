@@ -1,0 +1,13 @@
+.contacts-text__politics-konf {
+    display: flex;
+    max-width: 384px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #949494;
+    margin-top: 206px;
+}

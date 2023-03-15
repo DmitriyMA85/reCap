@@ -1,0 +1,8 @@
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    width: 374px;
+    height: 76px;
+    margin-top: 32px;
+    margin-bottom: 30px;
+}

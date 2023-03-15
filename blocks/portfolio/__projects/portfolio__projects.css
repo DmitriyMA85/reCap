@@ -1,0 +1,8 @@
+.portfolio__projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 944px;
+    height: 304px;
+    margin: 54px 168px 64px 168px;
+}

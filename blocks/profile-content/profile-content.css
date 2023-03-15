@@ -1,0 +1,13 @@
+.profile-content {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 944px;
+    height: 384px;
+    left: 168px;
+    top: 182px;
+    background-image: url(../../images/Ellipse\ 2.png), url(../../images/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 1;
+}

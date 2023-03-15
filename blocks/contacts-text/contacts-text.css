@@ -1,0 +1,6 @@
+.contacts-text {
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    height: 462px;
+}

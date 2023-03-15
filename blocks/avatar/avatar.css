@@ -1,0 +1,11 @@
+.avatar {
+    width: 362px;
+    height: 362px;
+    border-radius: 50%;
+    margin-top: 11px;
+    margin-right: 11px;
+}
+
+.avatar:hover {
+    transform: scale(1.2);
+}

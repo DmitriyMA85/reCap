@@ -1,0 +1,12 @@
+.form__title {
+    max-width: 380px;
+    margin: 47px 42px 30px 42px;
+    height: 62px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}

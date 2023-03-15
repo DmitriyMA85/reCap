@@ -1,0 +1,11 @@
+.phone__data {
+    max-width: 124px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 0;
+}

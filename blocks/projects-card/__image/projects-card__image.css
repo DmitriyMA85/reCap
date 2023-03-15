@@ -1,0 +1,5 @@
+.projects-card__image {
+    position: absolute;
+    border-radius: 6px;
+    z-index: 1;
+}
