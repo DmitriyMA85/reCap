@@ -1,0 +1,5 @@
+.form__contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

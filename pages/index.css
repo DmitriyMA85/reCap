@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(./fonts.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
@@ -12,6 +12,7 @@
 @import url(../blocks/profile-content/__proffesion/profile-content__proffesion.css);
 @import url(../blocks/profile-content/__name/profile-content__name.css);
 @import url(../blocks/profile-content/__description/profile-content__description.css);
+@import url(../blocks/profile-content/__button/profile-content__button.css);
 @import url(../blocks/button-consultation/button-consultation.css);
 @import url(../blocks/avatar/avatar.css);
 @import url(../blocks/features/features.css);
@@ -29,8 +30,15 @@
 @import url(../blocks/projects-card/__image/projects-card__image.css);
 @import url(../blocks/projects-card/__button/project__button.css);
 @import url(../blocks/gallery/gallery.css);
-@import url(../blocks/photos/photos.css);
-@import url(../blocks/photos/photo/photo.css);
+@import url(../blocks/photos-videos/photos-videos.css);
+@import url(../blocks/photo/photo.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__time/video__time.css);
+@import url(../blocks/video/__time/_first/video__time_first.css);
+@import url(../blocks/video/__time/_second/video__time_second.css);
+@import url(../blocks/video/__button/video__button.css);
+@import url(../blocks/video/__button/_first/video__button_first.css);
+@import url(../blocks/video/__button/_second/video__button_second.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/contacts/contacts.css);
@@ -50,6 +58,12 @@
 @import url(../blocks/link/_telegram/link_telegram.css);
 @import url(../blocks/link/_vkontakte/link_vkontakte.css);
 @import url(../blocks/form/form.css);
+@import url(../blocks/form/__contact-info/form__contact-info.css);
 @import url(../blocks/form/__title/form__title.css);
 @import url(../blocks/form/__input-name/form__input-name.css);
 @import url(../blocks/form/__input-phone/form__input-phone.css);
+@import url(../blocks/form/__data/form__data.css);
+@import url(../blocks/form/__user-icon/form__user-icon.css);
+@import url(../blocks/form/__phone-icon/form__phone-icon.css);
+@import url(../blocks/form/__button/form__button.css);
+

@@ -1,0 +1,7 @@
+.video__button {
+    position: absolute;
+    height: 13.31px;
+    width: 13.31px;
+    border-radius: 0px;
+    z-index: 3;
+}

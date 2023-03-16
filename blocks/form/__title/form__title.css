@@ -1,6 +1,7 @@
 .form__title {
     max-width: 380px;
-    margin: 47px 42px 30px 42px;
+    margin-top: 47px;
+    margin-bottom: 30px;
     height: 62px;
     font-family: 'Roboto';
     font-style: normal;

@@ -1,0 +1,11 @@
+.photos-videos {
+    display:grid;
+    position: relative;
+    grid-template-columns: repeat(4,224px);
+    grid-template-rows: repeat(3,224px);
+    row-gap: 16px;
+    column-gap: 16px;
+    margin: 96px 168px 96px 168px;
+    width: 944px;
+    height: 705px;
+}

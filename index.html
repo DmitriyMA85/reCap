@@ -32,9 +32,8 @@
                     <p class="profile-content__description">Разрабатываю сайты для малого и среднего бизнеса. У меня
                         можно
                         заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
-                    <fieldset>
-                        <input class="button-consultation" type="submit" value="Бесплатная консультация">
-                    </fieldset>
+                    <!--Сделал передох при нажатии ссылки на секцию заявки на бесплатную консультацию-->
+                    <a class="profile-content__button" href="#form">Бесплатная консультация</a>
                 </div>
                 <img class="avatar" src="./images/avatar.jpg" alt="Фото Киану Ривз">
             </div>
@@ -46,8 +45,7 @@
                     <img class="table__image" src="./images/offer-img.svg" alt="Фото иконки №1">
                     <h3 class="table__title">По договору</h3>
                     <p class="table__description">Предоставлю все документы для бухгалтерии: договоры, счета и акты.
-                        Работаю
-                        как ИП без НДС.</p>
+                        Работаю как ИП без НДС.</p>
                 </li>
                 <li class="table__cell">
                     <img class="table__image" src="./images/deadline-img.svg" alt="Фото иконки №2">
@@ -106,19 +104,25 @@
             </div>
         </section>
         <section class="gallery">
-            <div class="photos">
+            <div class="photos-videos">
                 <img class="photo" src="./images/Foto1.png" alt="Фото №1">
                 <img class="photo" src="./images/Foto2.png" alt="Фото №2">
                 <img class="photo" src="./images/Foto3.png" alt="Фото №3">
                 <img class="photo" src="./images/Foto4.png" alt="Фото №4">
                 <img class="photo" src="./images/Foto5.png" alt="Фото №5">
-                <img class="photo" src="./images/Foto6.png" alt="Фото №6">
+                <!--Проверил, что видео проигрывается в основных четырех браузерах FireFox, Yandex, Goggle Chrome, Microsoft Edge-->
+                <video controls class="video" src="./images/IMG_1715.MOV" poster="./images/Foto6.png"></video>
                 <img class="photo" src="./images/Foto7.png" alt="Фото №7">
                 <img class="photo" src="./images/Foto8.png" alt="Фото №8">
                 <img class="photo" src="./images/Foto9.png" alt="Фото №9">
                 <img class="photo" src="./images/Foto10.png" alt="Фото №10">
-                <img class="photo" src="./images/Foto11.png" alt="Фото №11">
+                <video controls class="video" src="./images/IMG_1641.MOV" poster="./images/Foto11.png"></video>
                 <img class="photo" src="./images/Foto12.png" alt="Фото №12">
+                <!--Сделал нижние четыре элемента вне тега video, чтобы работало свойство z-index-->
+                <p class="video__time video__time_first">0:23</p>
+                <img class="video__button video__button_first" src="./images/play_circle_filled.png" alt="Значок play">
+                <p class="video__time video__time_second">0:12</p>
+                <img class="video__button video__button_second" src="./images/play_circle_filled.png" alt="Значок play">
             </div>
         </section>
     </main>
@@ -127,13 +131,20 @@
         <div class="contacts">
             <div class="form">
                 <h4 class="form__title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
+                <a id="form"></a>
                 <form class="form__contact-info">
                     <fieldset class="form__input-name">
-                        <input class="form__item" type="text">
+                        <img class="form__user-icon" src="./images/user-icon.png" alt="Иконка человечка">
+                        <input class="form__data" type="text" placeholder="Ваше имя">
                     </fieldset>
-                    <fieldset class="form__input-phone"></fieldset>
+                    <fieldset class="form__input-phone">
+                        <img class="form__phone-icon" src="./images/phone-icon.svg" alt="Иконка трубки">
+                        <input class="form__data" type="tel" placeholder="Ваш телефон">
+                    </fieldset>
+                    <fieldset class="form__button">
+                        <input class="button-consultation" type="submit" value="Бесплатная консультация">
+                    </fieldset>
                 </form>
-                <input class="button-consultation" type="submit" value="Бесплатная консультация">
             </div>
             <div class="contacts-text">
                 <div class="contacts-text__data">

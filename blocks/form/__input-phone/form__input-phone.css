@@ -1,8 +1,13 @@
 .form__input-phone {
+    display: flex;
+    flex-direction: row;
     width: 380px;
     height: 70px;
-    margin: 0 42px 30px 42px;
+    margin-top: 0;
+    margin-bottom: 30px;
     background: #F8F8F8;
     box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
     border-radius: 5px;
+    padding: 0;
+    border-width: 0;
 }
