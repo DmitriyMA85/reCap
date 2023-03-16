@@ -5,7 +5,7 @@
     margin-top: 11px;
     margin-right: 11px;
 }
-
+/**Добавил эффект при наведении курсора, в задании такого требования не было**/
 .avatar:hover {
     transform: scale(1.2);
 }
